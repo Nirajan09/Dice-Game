@@ -11,7 +11,7 @@ const prev=()=>{
   return (
     <Container>
       <Roll>
-        <img src={`../public/dice_${dicenumber}.png`} onClick={generaterandomNumber} alt={`dice${dicenumber}`} />
+        <img src={`../dice_${dicenumber}.png`} onClick={generaterandomNumber} alt={`dice${dicenumber}`} />
         <p>Click on dice to roll</p>
       </Roll>
       <div className='buttons'>
